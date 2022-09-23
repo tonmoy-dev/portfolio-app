@@ -2,8 +2,8 @@ import type { NextPage } from 'next';
 
 const Navigation : NextPage = () => {
     return (
-        <div className='container mx-auto py-6'>
-            <div className='flex'>
+        <div className='mx-auto py-5 shadow-lg sticky top-0' style={{background:'#0A192F'}}>
+            <div className='flex container mx-auto'>
                 <div className='grow-0'>
                     Logo
                 </div>
