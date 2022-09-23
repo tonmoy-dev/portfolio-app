@@ -4,8 +4,15 @@ import Project from "./Project/Project";
 
 const Projects: NextPage = () => {
     return (
-        <div>
-            <Project/>
+        <div className="container mx-auto py-10">
+            <p className="text-center text-2xl mb-6">Featured Projects</p>
+            <div className="grid grid-cols-3 gap-6">
+                <Project />
+                <Project />
+                <Project />
+                <Project />
+                <Project/>
+            </div>
         </div>
     )
 }
