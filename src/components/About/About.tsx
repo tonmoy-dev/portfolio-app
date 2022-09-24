@@ -12,11 +12,13 @@ const About : NextPage = () => {
                     Fast-forward to today, and I&apos;ve had the privilege of working at an advertising agency, a start-up, a huge corporation, and a student-led design studio. My main focus these days is building accessible, inclusive products and digital experiences at Upstatement for a variety of clients.
 
                     Here are a few technologies I&apos;ve been working with recently:
-                    <li>JavaScript (ES6+)</li>
-                    <li>TypeScript</li>
-                    <li>React</li>
-                    <li>Node.js</li>
                     </p>
+					<ul>
+						<li>JavaScript (ES6+)</li>
+						<li>TypeScript</li>
+						<li>React</li>
+						<li>Node.js</li>
+					</ul>
                 </div>
                 <div className='w-2/5 text-center p-5'>
                     <img className='w-full' src="https://i.ibb.co/j3mNFfk/dev.png" alt="" />
