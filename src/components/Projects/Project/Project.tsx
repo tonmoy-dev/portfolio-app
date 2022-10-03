@@ -3,7 +3,7 @@ import type { NextPage } from "next";
 
 const Project: NextPage = () => {
     return (
-        <div className="shadow-lg border border-black p-6 rounded-md">
+        <div className="bg-slate-800 text-slate-400 shadow-lg p-6 rounded-md">
             <div className="space-y-4">
                 <div>Links</div>
                 <div className="space-y-2">

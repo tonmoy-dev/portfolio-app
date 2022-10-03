@@ -4,7 +4,11 @@ import type { NextPage } from 'next';
 const About : NextPage = () => {
     return (
         <div className='container mx-auto py-10'>
-            <h2 className='text-2xl mb-5 text-center'>About Me</h2>
+            <h2 className='text-2xl text-center mb-6'>About Me</h2>
+            {/* <div className='w-3/5 flex justify-between items-center pb-6 gap-6'>
+            <h2 className='text-2xl whitespace-nowrap'>About Me</h2>
+            <hr className='w-full'/>
+            </div> */}
             <div className='space-y-4 flex gap-6'>
                 <div className='w-3/5'>
                     <p className='text-base'>Hello! My name is Tonmoy and I enjoy creating things that live on the internet. My interest in web development started back in 2012 when I decided to try editing custom Tumblr themes — turns out hacking together a custom reblog button taught me a lot about HTML &amp; CSS!
