@@ -12,6 +12,7 @@ const Home: NextPage = () => {
   return (
     <>
       <Navigation />
+      <div className=' bg-white dark:bg-slate-800'>
       <div className='grid grid-cols-[100px_minmax(900px,_1fr)_100px]'>
         <LeftSidebar />
         <div>
@@ -22,9 +23,12 @@ const Home: NextPage = () => {
         <RightSidebar />
       </div>
       <Footer/>
+      </div>
       
     </>
   );
 }
 
 export default Home
+
+

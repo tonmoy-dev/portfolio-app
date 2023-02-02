@@ -32,7 +32,7 @@ body {
 }
 
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
@@ -40,4 +40,4 @@ body {
     color: #7983A0;
     background: #0A192F;
   }
-}
+} */
