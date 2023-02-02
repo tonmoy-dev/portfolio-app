@@ -9,9 +9,11 @@ const Home: NextPage = () => {
   return (
     <div className='container mx-auto'>
       <Navigation />
-      <Hero />
-      <About />
-      <Projects/>
+      <div className='bg-white dark:bg-slate-800'>
+        <Hero />
+        <About />
+        <Projects />
+      </div>
     </div>
   )
 }

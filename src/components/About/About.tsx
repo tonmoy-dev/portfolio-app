@@ -3,7 +3,7 @@ import type { NextPage } from 'next';
 
 const About : NextPage = () => {
     return (
-        <div className='container mx-auto py-10'>
+        <div className='container mx-auto py-10' id="aboutMe">
             <h2 className='text-2xl mb-5 text-center'>About Me</h2>
             <div className='space-y-4 flex gap-6'>
                 <div className='w-3/5'>
