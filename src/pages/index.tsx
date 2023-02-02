@@ -7,12 +7,12 @@ import Projects from '../components/Projects/Projects'
 
 const Home: NextPage = () => {
   return (
-    <>
+    <div className='container mx-auto'>
       <Navigation />
       <Hero />
       <About />
       <Projects/>
-    </>
+    </div>
   )
 }
 
